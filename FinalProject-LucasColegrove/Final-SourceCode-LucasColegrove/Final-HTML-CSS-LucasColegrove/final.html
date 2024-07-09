@@ -1,0 +1,151 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <title>Movie Design</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container"><h1 class="logo">MovieQuest</h1></div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Home</li>
+                    <li onclick="window.location.href = 'http://54.163.37.17/FinalProject/RandomServlet'" class="menu-list-item">Random!</li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="MOVIE_IMAGES/popcorn.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fa-solid fa-house-chimney"></i>
+        <i class="left-menu-icon fa-solid fa-magnifying-glass"></i>
+
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+            style="background: linear-gradient(to bottom, rgba(0,0,0,0), black), url('MOVIE_IMAGES/f-1.jpg');"
+            >
+                <img class="featured-title" src="MOVIE_IMAGES/f-t-1.png">    
+                <p class="featured-desc">With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation-owner in Mississippi.</p>
+                    <button id="3" onclick="window.location.href = 'http://54.163.37.17/FinalProject/DjangoServlet'" class="featured-button">Info</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">Action</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MOVIE_IMAGES/2.jpg">
+                            <span class="movie-list-item-title">The Avengers</span>
+                                <button onclick="window.location.href = 'http://54.163.37.17/FinalProject/AvengersServlet'" class="movie-list-item-button">Info</button>                           
+                        </div>                    
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MOVIE_IMAGES/3.jpeg">
+                            <span class="movie-list-item-title">Star Wars: The Rise of Skywalker</span>
+                                <button onclick="window.location.href = 'http://54.163.37.17/FinalProject/StarWarServlet'" class="movie-list-item-button">Info</button>                          
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MOVIE_IMAGES/4.jpg">
+                            <span class="movie-list-item-title">1917</span>
+                            	<button onclick="window.location.href = 'http://54.163.37.17/FinalProject/Servlet1917'" class="movie-list-item-button">Info</button>                           
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">Comedy</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MOVIE_IMAGES/5.jpg">
+                            <span class="movie-list-item-title"><small>Napoleon Dynamite</small></span>
+                                <button onclick="window.location.href = 'http://54.163.37.17/FinalProject/NapoleonServlet'" class="movie-list-item-button">Info</button>                           
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MOVIE_IMAGES/6.jpg">
+                            <span class="movie-list-item-title">The Hangover</span>
+                                <button onclick="window.location.href = 'http://54.163.37.17/FinalProject/HangoverServlet'" class="movie-list-item-button">Info</button>                          
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MOVIE_IMAGES/7.jpg">
+                            <span class="movie-list-item-title">Anchorman: The Legend of Ron Burgundy</span>
+                                <button onclick="window.location.href = 'http://54.163.37.17/FinalProject/AnchormanServlet'" class="movie-list-item-button">Info</button>                           
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>  
+            
+            <div class="featured-content"
+            style="background: linear-gradient(to bottom, rgba(0,0,0,0), black), url('MOVIE_IMAGES/11.jpg');"
+            >
+                <img class="featured-title" src="MOVIE_IMAGES/f-t-8.png">    
+                <p class="featured-desc">In the summer of 1989, a group of bullied kids band together to destroy a shape-shifting monster, which disguises itself as a clown and preys on the children of Derry, their small Maine town.</p>
+                    <button id="3" onclick="window.location.href = 'http://54.163.37.17/FinalProject/ItServlet'" class="featured-button">Info</button>
+            </div>
+
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">Horror</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MOVIE_IMAGES/9.png">
+                            <span class="movie-list-item-title">The Conjuring</span>
+                                <button onclick="window.location.href = 'http://54.163.37.17/FinalProject/ConjuringServlet'" class="movie-list-item-button">Info</button>                           
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MOVIE_IMAGES/10.jpg">
+                            <span class="movie-list-item-title">Us</span>
+                                <button onclick="window.location.href = 'http://54.163.37.17/FinalProject/UsServlet'" class="movie-list-item-button">Info</button>                          
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MOVIE_IMAGES/8.jpg">
+                            <span class="movie-list-item-title">Hereditary</span>
+                                <button onclick="window.location.href = 'http://54.163.37.17/FinalProject/HereditaryServlet'" class="movie-list-item-button">Info</button>                           
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">Animation</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MOVIE_IMAGES/12.jpg">
+                            <span class="movie-list-item-title">The Lego Batman Movie</span>
+                                <button onclick="window.location.href = 'http://54.163.37.17/FinalProject/BatmanServlet'" class="movie-list-item-button">Info</button>                           
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MOVIE_IMAGES/13.jpg">
+                            <span class="movie-list-item-title">Emoji Movie</span>
+                                <button onclick="window.location.href = 'http://54.163.37.17/FinalProject/EmojiServlet'" class="movie-list-item-button">Info</button>                          
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MOVIE_IMAGES/14.jpg">
+                            <span class="movie-list-item-title">Moana</span>
+                                <button onclick="window.location.href = 'http://54.163.37.17/FinalProject/MoanaServlet'" class="movie-list-item-button">Info</button>                           
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
